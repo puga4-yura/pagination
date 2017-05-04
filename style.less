@@ -1,0 +1,22 @@
+@main-back:url(img/jakob-owens-190795.jpg);
+@main-back-table: #f7f3f1;
+
+body{
+   background: @main-back ;
+   background-size: 100%;
+}
+.main-block{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #f7f3f1;
+	background: @main-back-table;
+	table{ 
+      width: 700px;
+      height: 300px;
+		tr{
+           border-bottom: 1px solid #000;
+		}	
+	}
+}
